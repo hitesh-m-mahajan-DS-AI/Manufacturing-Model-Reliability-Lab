@@ -1,0 +1,115 @@
+{
+  "checked_at": "2026-10-26T12:31:49.438617+00:00",
+  "frozen_experiment": "exp-67c71c2ee66f",
+  "inputs": {
+    "targeted_productivity": 0.8,
+    "smv": 26,
+    "no_of_workers": 56,
+    "department": "sewing"
+  },
+  "before_release": {
+    "prediction": 0.7913710070242258,
+    "model_version": "ridge-67c71c2ee66f",
+    "generation": 4,
+    "artifact_sha256": "027ecd924ca52a7b50a73b662e33e15b9880634e61b0d86a979605d590f08c63",
+    "duration_ms": 6.958,
+    "unit": "source productivity ratio; not clipped to 0\u20131"
+  },
+  "candidate_response": {
+    "prediction": 0.8390271164043333,
+    "model_version": "forest-67c71c2ee66f",
+    "generation": 5,
+    "artifact_sha256": "00f119c6b0bded32abab519826db277cb309c1b73664ad75d840066a581cc8c1",
+    "duration_ms": 14.332,
+    "unit": "source productivity ratio; not clipped to 0\u20131"
+  },
+  "after_rollback": {
+    "prediction": 0.7913710070242258,
+    "model_version": "ridge-67c71c2ee66f",
+    "generation": 6,
+    "artifact_sha256": "027ecd924ca52a7b50a73b662e33e15b9880634e61b0d86a979605d590f08c63",
+    "duration_ms": 5.053,
+    "unit": "source productivity ratio; not clipped to 0\u20131"
+  },
+  "rollback_prediction_and_version_exactly_restored": true,
+  "invalid_requests": {
+    "negative_smv": {
+      "status": 422,
+      "response": {
+        "detail": [
+          {
+            "type": "greater_than",
+            "loc": [
+              "body",
+              "smv"
+            ],
+            "msg": "Input should be greater than 0",
+            "input": -1,
+            "ctx": {
+              "gt": 0.0
+            }
+          }
+        ]
+      }
+    },
+    "extra_target": {
+      "status": 422,
+      "response": {
+        "detail": [
+          {
+            "type": "extra_forbidden",
+            "loc": [
+              "body",
+              "actual_productivity"
+            ],
+            "msg": "Extra inputs are not permitted",
+            "input": 0.8
+          }
+        ]
+      }
+    },
+    "unknown_department": {
+      "status": 422,
+      "response": {
+        "detail": [
+          {
+            "type": "literal_error",
+            "loc": [
+              "body",
+              "department"
+            ],
+            "msg": "Input should be 'sewing' or 'finishing'",
+            "input": "unknown",
+            "ctx": {
+              "expected": "'sewing' or 'finishing'"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "stale_release": {
+    "status": 409,
+    "response": {
+      "detail": "State changed. Refresh before releasing a model."
+    }
+  },
+  "timing": {
+    "samples": 10,
+    "round_trip_ms": [
+      24.540099897421896,
+      44.087199959903955,
+      49.39669999293983,
+      44.663800043053925,
+      44.665300054475665,
+      24.808699963614345,
+      36.95849992800504,
+      24.38000007532537,
+      24.241200066171587,
+      46.80689994711429
+    ],
+    "median_round_trip_ms": 40.5228499439545,
+    "median_backend_ms": 17.089,
+    "scope": "Sequential warm localhost HTTP requests, including artifact verification/load. Not a concurrency/load test."
+  }
+}

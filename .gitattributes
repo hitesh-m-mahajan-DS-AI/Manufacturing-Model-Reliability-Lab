@@ -1,0 +1,3 @@
+# Preserve the original public CSV's checksum and native CRLF record endings.
+data/garments_worker_productivity.csv -text whitespace=cr-at-eol
+data/policy.json -text

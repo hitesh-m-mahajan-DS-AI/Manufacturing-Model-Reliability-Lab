@@ -1,0 +1,1988 @@
+{
+  "id": "replay-001891b12dda",
+  "created": "2026-10-26T12:31:49.385613+00:00",
+  "model_version": "forest-67c71c2ee66f",
+  "generation": 5,
+  "batches": [
+    {
+      "date": "2015-02-26",
+      "rows": 21,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.006452274148619727,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.7071428571428571,
+          "out_of_training_range": 0,
+          "alert": false
+        },
+        {
+          "feature": "smv",
+          "psi": 7.7783517588730495,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 27.829714285714296,
+          "out_of_training_range": 1,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 1.68042971777309,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 34.333333333333336,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.6656027644670759,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    },
+    {
+      "date": "2015-02-28",
+      "rows": 21,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.009893947200346795,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.7071428571428571,
+          "out_of_training_range": 0,
+          "alert": false
+        },
+        {
+          "feature": "smv",
+          "psi": 7.7783517588730495,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 27.534857142857145,
+          "out_of_training_range": 1,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 1.696796200065064,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 34.38095238095238,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.6646431883611501,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    },
+    {
+      "date": "2015-03-01",
+      "rows": 20,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.06268439880434566,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.7150000000000001,
+          "out_of_training_range": 0,
+          "alert": false
+        },
+        {
+          "feature": "smv",
+          "psi": 7.783316563692015,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 28.591199999999997,
+          "out_of_training_range": 1,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 0.24057714292626506,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 35.45,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.6574300173591147,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    },
+    {
+      "date": "2015-03-02",
+      "rows": 20,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.043356503768474934,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.7350000000000001,
+          "out_of_training_range": 0,
+          "alert": false
+        },
+        {
+          "feature": "smv",
+          "psi": 7.777211594282766,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 26.2755,
+          "out_of_training_range": 0,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 0.2239866898838629,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 33.15,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.6876732361999788,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    },
+    {
+      "date": "2015-03-03",
+      "rows": 22,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.22179206253585426,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.7159090909090908,
+          "out_of_training_range": 0,
+          "alert": true
+        },
+        {
+          "feature": "smv",
+          "psi": 7.777211594282766,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 25.61236363636364,
+          "out_of_training_range": 0,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 0.23922171439904935,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 32.45454545454545,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.6787650341826903,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    },
+    {
+      "date": "2015-03-04",
+      "rows": 21,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.16829927196068573,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.7309523809523809,
+          "out_of_training_range": 0,
+          "alert": false
+        },
+        {
+          "feature": "smv",
+          "psi": 7.7783517588730495,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 26.49,
+          "out_of_training_range": 0,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 0.24713755773869003,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 33.714285714285715,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.6784272412163302,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    },
+    {
+      "date": "2015-03-05",
+      "rows": 19,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.12780655580225936,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.718421052631579,
+          "out_of_training_range": 0,
+          "alert": false
+        },
+        {
+          "feature": "smv",
+          "psi": 7.778658204571673,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 26.25063157894737,
+          "out_of_training_range": 0,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 0.2576212002132838,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 34.526315789473685,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.6759544008961325,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    },
+    {
+      "date": "2015-03-07",
+      "rows": 19,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.25189999683964454,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.6947368421052631,
+          "out_of_training_range": 0,
+          "alert": true
+        },
+        {
+          "feature": "smv",
+          "psi": 7.7796755691385275,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 23.93336842105263,
+          "out_of_training_range": 0,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 1.715541135725852,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 31.94736842105263,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.687031035419574,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    },
+    {
+      "date": "2015-03-08",
+      "rows": 22,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.07855016499545442,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.7045454545454545,
+          "out_of_training_range": 0,
+          "alert": false
+        },
+        {
+          "feature": "smv",
+          "psi": 7.783932755086735,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 23.584090909090904,
+          "out_of_training_range": 1,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 0.2686542548502008,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 30.0,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.6670944847644135,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    },
+    {
+      "date": "2015-03-09",
+      "rows": 22,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.07855016499545442,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.7159090909090909,
+          "out_of_training_range": 0,
+          "alert": false
+        },
+        {
+          "feature": "smv",
+          "psi": 7.777211594282766,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 25.840636363636364,
+          "out_of_training_range": 2,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 0.26820610877949297,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 32.72727272727273,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.6754185460498295,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    },
+    {
+      "date": "2015-03-10",
+      "rows": 23,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.04370945226262826,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.7195652173913044,
+          "out_of_training_range": 0,
+          "alert": false
+        },
+        {
+          "feature": "smv",
+          "psi": 7.778965794092544,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 25.022347826086957,
+          "out_of_training_range": 2,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 1.6841607636761675,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 31.73913043478261,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.681543066630494,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    },
+    {
+      "date": "2015-03-11",
+      "rows": 24,
+      "synthetic_shift": true,
+      "labels_available": false,
+      "metrics": null,
+      "drift": [
+        {
+          "feature": "targeted_productivity",
+          "psi": 0.09008113702715456,
+          "reference_mean": 0.7338537271448664,
+          "batch_mean": 0.7416666666666667,
+          "out_of_training_range": 0,
+          "alert": false
+        },
+        {
+          "feature": "smv",
+          "psi": 7.782924566695141,
+          "reference_mean": 15.02915611814346,
+          "batch_mean": 24.19725,
+          "out_of_training_range": 2,
+          "alert": true
+        },
+        {
+          "feature": "no_of_workers",
+          "psi": 1.5689219179589824,
+          "reference_mean": 34.933192686357245,
+          "batch_mean": 30.541666666666668,
+          "out_of_training_range": 0,
+          "alert": true
+        }
+      ],
+      "prediction_mean": 0.6989724955561298,
+      "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes."
+    }
+  ],
+  "rows": 254,
+  "synthetic_shift": true,
+  "labels_available": false,
+  "metrics": null,
+  "drift": [
+    {
+      "feature": "targeted_productivity",
+      "psi": 0.044133150185992745,
+      "reference_mean": 0.7338537271448664,
+      "batch_mean": 0.71751968503937,
+      "out_of_training_range": 0,
+      "alert": false
+    },
+    {
+      "feature": "smv",
+      "psi": 7.777211594282766,
+      "reference_mean": 15.02915611814346,
+      "batch_mean": 25.893070866141734,
+      "out_of_training_range": 10,
+      "alert": true
+    },
+    {
+      "feature": "no_of_workers",
+      "psi": 0.18760984804962502,
+      "reference_mean": 34.933192686357245,
+      "batch_mean": 32.846456692913385,
+      "out_of_training_range": 0,
+      "alert": false
+    }
+  ],
+  "prediction_mean": 0.6767711546925078,
+  "predictions": [
+    {
+      "source_row": 944,
+      "date": "2015-02-26",
+      "prediction": 0.8086882888125041,
+      "actual": null
+    },
+    {
+      "source_row": 945,
+      "date": "2015-02-26",
+      "prediction": 0.8086882888125041,
+      "actual": null
+    },
+    {
+      "source_row": 946,
+      "date": "2015-02-26",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 947,
+      "date": "2015-02-26",
+      "prediction": 0.8547639572352234,
+      "actual": null
+    },
+    {
+      "source_row": 948,
+      "date": "2015-02-26",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 949,
+      "date": "2015-02-26",
+      "prediction": 0.6803224601414251,
+      "actual": null
+    },
+    {
+      "source_row": 950,
+      "date": "2015-02-26",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 951,
+      "date": "2015-02-26",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 952,
+      "date": "2015-02-26",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 953,
+      "date": "2015-02-26",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 954,
+      "date": "2015-02-26",
+      "prediction": 0.5466230252408494,
+      "actual": null
+    },
+    {
+      "source_row": 955,
+      "date": "2015-02-26",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 956,
+      "date": "2015-02-26",
+      "prediction": 0.7565833234580573,
+      "actual": null
+    },
+    {
+      "source_row": 957,
+      "date": "2015-02-26",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 958,
+      "date": "2015-02-26",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 959,
+      "date": "2015-02-26",
+      "prediction": 0.4052136965208102,
+      "actual": null
+    },
+    {
+      "source_row": 960,
+      "date": "2015-02-26",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 961,
+      "date": "2015-02-26",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 962,
+      "date": "2015-02-26",
+      "prediction": 0.3996213141795084,
+      "actual": null
+    },
+    {
+      "source_row": 963,
+      "date": "2015-02-26",
+      "prediction": 0.7313542862203508,
+      "actual": null
+    },
+    {
+      "source_row": 964,
+      "date": "2015-02-26",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 965,
+      "date": "2015-02-28",
+      "prediction": 0.8086882888125041,
+      "actual": null
+    },
+    {
+      "source_row": 966,
+      "date": "2015-02-28",
+      "prediction": 0.8086882888125041,
+      "actual": null
+    },
+    {
+      "source_row": 967,
+      "date": "2015-02-28",
+      "prediction": 0.8534257398595173,
+      "actual": null
+    },
+    {
+      "source_row": 968,
+      "date": "2015-02-28",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 969,
+      "date": "2015-02-28",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 970,
+      "date": "2015-02-28",
+      "prediction": 0.6803224601414251,
+      "actual": null
+    },
+    {
+      "source_row": 971,
+      "date": "2015-02-28",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 972,
+      "date": "2015-02-28",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 973,
+      "date": "2015-02-28",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 974,
+      "date": "2015-02-28",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 975,
+      "date": "2015-02-28",
+      "prediction": 0.5466230252408494,
+      "actual": null
+    },
+    {
+      "source_row": 976,
+      "date": "2015-02-28",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 977,
+      "date": "2015-02-28",
+      "prediction": 0.7565833234580573,
+      "actual": null
+    },
+    {
+      "source_row": 978,
+      "date": "2015-02-28",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 979,
+      "date": "2015-02-28",
+      "prediction": 0.46185894131625005,
+      "actual": null
+    },
+    {
+      "source_row": 980,
+      "date": "2015-02-28",
+      "prediction": 0.46185894131625005,
+      "actual": null
+    },
+    {
+      "source_row": 981,
+      "date": "2015-02-28",
+      "prediction": 0.46680261142477936,
+      "actual": null
+    },
+    {
+      "source_row": 982,
+      "date": "2015-02-28",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 983,
+      "date": "2015-02-28",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 984,
+      "date": "2015-02-28",
+      "prediction": 0.7313542862203508,
+      "actual": null
+    },
+    {
+      "source_row": 985,
+      "date": "2015-02-28",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 986,
+      "date": "2015-03-01",
+      "prediction": 0.8104680754115907,
+      "actual": null
+    },
+    {
+      "source_row": 987,
+      "date": "2015-03-01",
+      "prediction": 0.7313542862203508,
+      "actual": null
+    },
+    {
+      "source_row": 988,
+      "date": "2015-03-01",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 989,
+      "date": "2015-03-01",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 990,
+      "date": "2015-03-01",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 991,
+      "date": "2015-03-01",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 992,
+      "date": "2015-03-01",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 993,
+      "date": "2015-03-01",
+      "prediction": 0.4992015863039593,
+      "actual": null
+    },
+    {
+      "source_row": 994,
+      "date": "2015-03-01",
+      "prediction": 0.5466230252408494,
+      "actual": null
+    },
+    {
+      "source_row": 995,
+      "date": "2015-03-01",
+      "prediction": 0.5110440513138225,
+      "actual": null
+    },
+    {
+      "source_row": 996,
+      "date": "2015-03-01",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 997,
+      "date": "2015-03-01",
+      "prediction": 0.8547639572352234,
+      "actual": null
+    },
+    {
+      "source_row": 998,
+      "date": "2015-03-01",
+      "prediction": 0.6640427418753279,
+      "actual": null
+    },
+    {
+      "source_row": 999,
+      "date": "2015-03-01",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1000,
+      "date": "2015-03-01",
+      "prediction": 0.5110440513138225,
+      "actual": null
+    },
+    {
+      "source_row": 1001,
+      "date": "2015-03-01",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1002,
+      "date": "2015-03-01",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1003,
+      "date": "2015-03-01",
+      "prediction": 0.6640427418753279,
+      "actual": null
+    },
+    {
+      "source_row": 1004,
+      "date": "2015-03-01",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1005,
+      "date": "2015-03-01",
+      "prediction": 0.7125231983221353,
+      "actual": null
+    },
+    {
+      "source_row": 1006,
+      "date": "2015-03-02",
+      "prediction": 0.7909548938776323,
+      "actual": null
+    },
+    {
+      "source_row": 1007,
+      "date": "2015-03-02",
+      "prediction": 0.8104680754115907,
+      "actual": null
+    },
+    {
+      "source_row": 1008,
+      "date": "2015-03-02",
+      "prediction": 0.7739881065905403,
+      "actual": null
+    },
+    {
+      "source_row": 1009,
+      "date": "2015-03-02",
+      "prediction": 0.5464350322042566,
+      "actual": null
+    },
+    {
+      "source_row": 1010,
+      "date": "2015-03-02",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 1011,
+      "date": "2015-03-02",
+      "prediction": 0.8108550882821189,
+      "actual": null
+    },
+    {
+      "source_row": 1012,
+      "date": "2015-03-02",
+      "prediction": 0.8547639572352234,
+      "actual": null
+    },
+    {
+      "source_row": 1013,
+      "date": "2015-03-02",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 1014,
+      "date": "2015-03-02",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1015,
+      "date": "2015-03-02",
+      "prediction": 0.7313542862203508,
+      "actual": null
+    },
+    {
+      "source_row": 1016,
+      "date": "2015-03-02",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 1017,
+      "date": "2015-03-02",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 1018,
+      "date": "2015-03-02",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 1019,
+      "date": "2015-03-02",
+      "prediction": 0.5464350322042566,
+      "actual": null
+    },
+    {
+      "source_row": 1020,
+      "date": "2015-03-02",
+      "prediction": 0.5405087903109829,
+      "actual": null
+    },
+    {
+      "source_row": 1021,
+      "date": "2015-03-02",
+      "prediction": 0.5466230252408494,
+      "actual": null
+    },
+    {
+      "source_row": 1022,
+      "date": "2015-03-02",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1023,
+      "date": "2015-03-02",
+      "prediction": 0.7565833234580573,
+      "actual": null
+    },
+    {
+      "source_row": 1024,
+      "date": "2015-03-02",
+      "prediction": 0.7739881065905403,
+      "actual": null
+    },
+    {
+      "source_row": 1025,
+      "date": "2015-03-02",
+      "prediction": 0.7125231983221353,
+      "actual": null
+    },
+    {
+      "source_row": 1026,
+      "date": "2015-03-03",
+      "prediction": 0.8091893910739824,
+      "actual": null
+    },
+    {
+      "source_row": 1027,
+      "date": "2015-03-03",
+      "prediction": 0.8086882888125041,
+      "actual": null
+    },
+    {
+      "source_row": 1028,
+      "date": "2015-03-03",
+      "prediction": 0.8453504821675434,
+      "actual": null
+    },
+    {
+      "source_row": 1029,
+      "date": "2015-03-03",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1030,
+      "date": "2015-03-03",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 1031,
+      "date": "2015-03-03",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 1032,
+      "date": "2015-03-03",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1033,
+      "date": "2015-03-03",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1034,
+      "date": "2015-03-03",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 1035,
+      "date": "2015-03-03",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 1036,
+      "date": "2015-03-03",
+      "prediction": 0.6025823127872035,
+      "actual": null
+    },
+    {
+      "source_row": 1037,
+      "date": "2015-03-03",
+      "prediction": 0.7313542862203508,
+      "actual": null
+    },
+    {
+      "source_row": 1038,
+      "date": "2015-03-03",
+      "prediction": 0.5478815631511225,
+      "actual": null
+    },
+    {
+      "source_row": 1039,
+      "date": "2015-03-03",
+      "prediction": 0.5466230252408494,
+      "actual": null
+    },
+    {
+      "source_row": 1040,
+      "date": "2015-03-03",
+      "prediction": 0.7565833234580573,
+      "actual": null
+    },
+    {
+      "source_row": 1041,
+      "date": "2015-03-03",
+      "prediction": 0.778561730859023,
+      "actual": null
+    },
+    {
+      "source_row": 1042,
+      "date": "2015-03-03",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1043,
+      "date": "2015-03-03",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1044,
+      "date": "2015-03-03",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1045,
+      "date": "2015-03-03",
+      "prediction": 0.7221230898061558,
+      "actual": null
+    },
+    {
+      "source_row": 1046,
+      "date": "2015-03-03",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1047,
+      "date": "2015-03-03",
+      "prediction": 0.4031372969719594,
+      "actual": null
+    },
+    {
+      "source_row": 1048,
+      "date": "2015-03-04",
+      "prediction": 0.8091893910739824,
+      "actual": null
+    },
+    {
+      "source_row": 1049,
+      "date": "2015-03-04",
+      "prediction": 0.7125231983221353,
+      "actual": null
+    },
+    {
+      "source_row": 1050,
+      "date": "2015-03-04",
+      "prediction": 0.7565833234580573,
+      "actual": null
+    },
+    {
+      "source_row": 1051,
+      "date": "2015-03-04",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1052,
+      "date": "2015-03-04",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1053,
+      "date": "2015-03-04",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1054,
+      "date": "2015-03-04",
+      "prediction": 0.8453504821675434,
+      "actual": null
+    },
+    {
+      "source_row": 1055,
+      "date": "2015-03-04",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 1056,
+      "date": "2015-03-04",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 1057,
+      "date": "2015-03-04",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1058,
+      "date": "2015-03-04",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1059,
+      "date": "2015-03-04",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1060,
+      "date": "2015-03-04",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 1061,
+      "date": "2015-03-04",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1062,
+      "date": "2015-03-04",
+      "prediction": 0.5466230252408494,
+      "actual": null
+    },
+    {
+      "source_row": 1063,
+      "date": "2015-03-04",
+      "prediction": 0.8116225130774891,
+      "actual": null
+    },
+    {
+      "source_row": 1064,
+      "date": "2015-03-04",
+      "prediction": 0.7221230898061558,
+      "actual": null
+    },
+    {
+      "source_row": 1065,
+      "date": "2015-03-04",
+      "prediction": 0.6803224601414251,
+      "actual": null
+    },
+    {
+      "source_row": 1066,
+      "date": "2015-03-04",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 1067,
+      "date": "2015-03-04",
+      "prediction": 0.45929982698504873,
+      "actual": null
+    },
+    {
+      "source_row": 1068,
+      "date": "2015-03-04",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 1069,
+      "date": "2015-03-05",
+      "prediction": 0.8116225130774891,
+      "actual": null
+    },
+    {
+      "source_row": 1070,
+      "date": "2015-03-05",
+      "prediction": 0.6640427418753279,
+      "actual": null
+    },
+    {
+      "source_row": 1071,
+      "date": "2015-03-05",
+      "prediction": 0.8143013501156062,
+      "actual": null
+    },
+    {
+      "source_row": 1072,
+      "date": "2015-03-05",
+      "prediction": 0.7565833234580573,
+      "actual": null
+    },
+    {
+      "source_row": 1073,
+      "date": "2015-03-05",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1074,
+      "date": "2015-03-05",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1075,
+      "date": "2015-03-05",
+      "prediction": 0.8086882888125041,
+      "actual": null
+    },
+    {
+      "source_row": 1076,
+      "date": "2015-03-05",
+      "prediction": 0.8453504821675434,
+      "actual": null
+    },
+    {
+      "source_row": 1077,
+      "date": "2015-03-05",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 1078,
+      "date": "2015-03-05",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 1079,
+      "date": "2015-03-05",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1080,
+      "date": "2015-03-05",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 1081,
+      "date": "2015-03-05",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1082,
+      "date": "2015-03-05",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1083,
+      "date": "2015-03-05",
+      "prediction": 0.5466230252408494,
+      "actual": null
+    },
+    {
+      "source_row": 1084,
+      "date": "2015-03-05",
+      "prediction": 0.504385281949141,
+      "actual": null
+    },
+    {
+      "source_row": 1085,
+      "date": "2015-03-05",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1086,
+      "date": "2015-03-05",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1087,
+      "date": "2015-03-05",
+      "prediction": 0.4031372969719594,
+      "actual": null
+    },
+    {
+      "source_row": 1088,
+      "date": "2015-03-07",
+      "prediction": 0.7565833234580573,
+      "actual": null
+    },
+    {
+      "source_row": 1089,
+      "date": "2015-03-07",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 1090,
+      "date": "2015-03-07",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1091,
+      "date": "2015-03-07",
+      "prediction": 0.8104680754115907,
+      "actual": null
+    },
+    {
+      "source_row": 1092,
+      "date": "2015-03-07",
+      "prediction": 0.7480249915028304,
+      "actual": null
+    },
+    {
+      "source_row": 1093,
+      "date": "2015-03-07",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1094,
+      "date": "2015-03-07",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 1095,
+      "date": "2015-03-07",
+      "prediction": 0.8534257398595173,
+      "actual": null
+    },
+    {
+      "source_row": 1096,
+      "date": "2015-03-07",
+      "prediction": 0.6803224601414251,
+      "actual": null
+    },
+    {
+      "source_row": 1097,
+      "date": "2015-03-07",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 1098,
+      "date": "2015-03-07",
+      "prediction": 0.5466230252408494,
+      "actual": null
+    },
+    {
+      "source_row": 1099,
+      "date": "2015-03-07",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1100,
+      "date": "2015-03-07",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1101,
+      "date": "2015-03-07",
+      "prediction": 0.7127778325758028,
+      "actual": null
+    },
+    {
+      "source_row": 1102,
+      "date": "2015-03-07",
+      "prediction": 0.5517983420761516,
+      "actual": null
+    },
+    {
+      "source_row": 1103,
+      "date": "2015-03-07",
+      "prediction": 0.8086882888125041,
+      "actual": null
+    },
+    {
+      "source_row": 1104,
+      "date": "2015-03-07",
+      "prediction": 0.7739881065905403,
+      "actual": null
+    },
+    {
+      "source_row": 1105,
+      "date": "2015-03-07",
+      "prediction": 0.45929982698504873,
+      "actual": null
+    },
+    {
+      "source_row": 1106,
+      "date": "2015-03-07",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1107,
+      "date": "2015-03-08",
+      "prediction": 0.8091893910739824,
+      "actual": null
+    },
+    {
+      "source_row": 1108,
+      "date": "2015-03-08",
+      "prediction": 0.7565833234580573,
+      "actual": null
+    },
+    {
+      "source_row": 1109,
+      "date": "2015-03-08",
+      "prediction": 0.7668782528604229,
+      "actual": null
+    },
+    {
+      "source_row": 1110,
+      "date": "2015-03-08",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1111,
+      "date": "2015-03-08",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1112,
+      "date": "2015-03-08",
+      "prediction": 0.7909548938776323,
+      "actual": null
+    },
+    {
+      "source_row": 1113,
+      "date": "2015-03-08",
+      "prediction": 0.6803224601414251,
+      "actual": null
+    },
+    {
+      "source_row": 1114,
+      "date": "2015-03-08",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 1115,
+      "date": "2015-03-08",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1116,
+      "date": "2015-03-08",
+      "prediction": 0.5990012361286693,
+      "actual": null
+    },
+    {
+      "source_row": 1117,
+      "date": "2015-03-08",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 1118,
+      "date": "2015-03-08",
+      "prediction": 0.8534257398595173,
+      "actual": null
+    },
+    {
+      "source_row": 1119,
+      "date": "2015-03-08",
+      "prediction": 0.7127778325758028,
+      "actual": null
+    },
+    {
+      "source_row": 1120,
+      "date": "2015-03-08",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 1121,
+      "date": "2015-03-08",
+      "prediction": 0.5466230252408494,
+      "actual": null
+    },
+    {
+      "source_row": 1122,
+      "date": "2015-03-08",
+      "prediction": 0.5558174048988179,
+      "actual": null
+    },
+    {
+      "source_row": 1123,
+      "date": "2015-03-08",
+      "prediction": 0.5027444794141835,
+      "actual": null
+    },
+    {
+      "source_row": 1124,
+      "date": "2015-03-08",
+      "prediction": 0.4992015863039593,
+      "actual": null
+    },
+    {
+      "source_row": 1125,
+      "date": "2015-03-08",
+      "prediction": 0.46680261142477936,
+      "actual": null
+    },
+    {
+      "source_row": 1126,
+      "date": "2015-03-08",
+      "prediction": 0.6640427418753279,
+      "actual": null
+    },
+    {
+      "source_row": 1127,
+      "date": "2015-03-08",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1128,
+      "date": "2015-03-08",
+      "prediction": 0.6640427418753279,
+      "actual": null
+    },
+    {
+      "source_row": 1129,
+      "date": "2015-03-09",
+      "prediction": 0.7127778325758028,
+      "actual": null
+    },
+    {
+      "source_row": 1130,
+      "date": "2015-03-09",
+      "prediction": 0.7565833234580573,
+      "actual": null
+    },
+    {
+      "source_row": 1131,
+      "date": "2015-03-09",
+      "prediction": 0.7595531576417358,
+      "actual": null
+    },
+    {
+      "source_row": 1132,
+      "date": "2015-03-09",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1133,
+      "date": "2015-03-09",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1134,
+      "date": "2015-03-09",
+      "prediction": 0.8090430527999833,
+      "actual": null
+    },
+    {
+      "source_row": 1135,
+      "date": "2015-03-09",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1136,
+      "date": "2015-03-09",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 1137,
+      "date": "2015-03-09",
+      "prediction": 0.8534257398595173,
+      "actual": null
+    },
+    {
+      "source_row": 1138,
+      "date": "2015-03-09",
+      "prediction": 0.8091893910739824,
+      "actual": null
+    },
+    {
+      "source_row": 1139,
+      "date": "2015-03-09",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1140,
+      "date": "2015-03-09",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1141,
+      "date": "2015-03-09",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 1142,
+      "date": "2015-03-09",
+      "prediction": 0.5558174048988179,
+      "actual": null
+    },
+    {
+      "source_row": 1143,
+      "date": "2015-03-09",
+      "prediction": 0.5466230252408494,
+      "actual": null
+    },
+    {
+      "source_row": 1144,
+      "date": "2015-03-09",
+      "prediction": 0.7909548938776323,
+      "actual": null
+    },
+    {
+      "source_row": 1145,
+      "date": "2015-03-09",
+      "prediction": 0.5417283181635701,
+      "actual": null
+    },
+    {
+      "source_row": 1146,
+      "date": "2015-03-09",
+      "prediction": 0.5405087903109829,
+      "actual": null
+    },
+    {
+      "source_row": 1147,
+      "date": "2015-03-09",
+      "prediction": 0.5373066406345121,
+      "actual": null
+    },
+    {
+      "source_row": 1148,
+      "date": "2015-03-09",
+      "prediction": 0.4540418998792049,
+      "actual": null
+    },
+    {
+      "source_row": 1149,
+      "date": "2015-03-09",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1150,
+      "date": "2015-03-09",
+      "prediction": 0.7739881065905403,
+      "actual": null
+    },
+    {
+      "source_row": 1151,
+      "date": "2015-03-10",
+      "prediction": 0.7565833234580573,
+      "actual": null
+    },
+    {
+      "source_row": 1152,
+      "date": "2015-03-10",
+      "prediction": 0.7595531576417358,
+      "actual": null
+    },
+    {
+      "source_row": 1153,
+      "date": "2015-03-10",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1154,
+      "date": "2015-03-10",
+      "prediction": 0.8091893910739824,
+      "actual": null
+    },
+    {
+      "source_row": 1155,
+      "date": "2015-03-10",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1156,
+      "date": "2015-03-10",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1157,
+      "date": "2015-03-10",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1158,
+      "date": "2015-03-10",
+      "prediction": 0.8090430527999833,
+      "actual": null
+    },
+    {
+      "source_row": 1159,
+      "date": "2015-03-10",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 1160,
+      "date": "2015-03-10",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1161,
+      "date": "2015-03-10",
+      "prediction": 0.8534257398595173,
+      "actual": null
+    },
+    {
+      "source_row": 1162,
+      "date": "2015-03-10",
+      "prediction": 0.7127778325758028,
+      "actual": null
+    },
+    {
+      "source_row": 1163,
+      "date": "2015-03-10",
+      "prediction": 0.6025823127872035,
+      "actual": null
+    },
+    {
+      "source_row": 1164,
+      "date": "2015-03-10",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 1165,
+      "date": "2015-03-10",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1166,
+      "date": "2015-03-10",
+      "prediction": 0.5478815631511225,
+      "actual": null
+    },
+    {
+      "source_row": 1167,
+      "date": "2015-03-10",
+      "prediction": 0.5449403532627244,
+      "actual": null
+    },
+    {
+      "source_row": 1168,
+      "date": "2015-03-10",
+      "prediction": 0.5558174048988179,
+      "actual": null
+    },
+    {
+      "source_row": 1169,
+      "date": "2015-03-10",
+      "prediction": 0.6173988732716568,
+      "actual": null
+    },
+    {
+      "source_row": 1170,
+      "date": "2015-03-10",
+      "prediction": 0.5110440513138225,
+      "actual": null
+    },
+    {
+      "source_row": 1171,
+      "date": "2015-03-10",
+      "prediction": 0.7739881065905403,
+      "actual": null
+    },
+    {
+      "source_row": 1172,
+      "date": "2015-03-10",
+      "prediction": 0.6803224601414251,
+      "actual": null
+    },
+    {
+      "source_row": 1173,
+      "date": "2015-03-10",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1174,
+      "date": "2015-03-11",
+      "prediction": 0.7565833234580573,
+      "actual": null
+    },
+    {
+      "source_row": 1175,
+      "date": "2015-03-11",
+      "prediction": 0.8143013501156062,
+      "actual": null
+    },
+    {
+      "source_row": 1176,
+      "date": "2015-03-11",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1177,
+      "date": "2015-03-11",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1178,
+      "date": "2015-03-11",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1179,
+      "date": "2015-03-11",
+      "prediction": 0.8003380864370178,
+      "actual": null
+    },
+    {
+      "source_row": 1180,
+      "date": "2015-03-11",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1181,
+      "date": "2015-03-11",
+      "prediction": 0.8534257398595173,
+      "actual": null
+    },
+    {
+      "source_row": 1182,
+      "date": "2015-03-11",
+      "prediction": 0.7125231983221353,
+      "actual": null
+    },
+    {
+      "source_row": 1183,
+      "date": "2015-03-11",
+      "prediction": 0.8001682204442033,
+      "actual": null
+    },
+    {
+      "source_row": 1184,
+      "date": "2015-03-11",
+      "prediction": 0.6025823127872035,
+      "actual": null
+    },
+    {
+      "source_row": 1185,
+      "date": "2015-03-11",
+      "prediction": 0.6159342057835409,
+      "actual": null
+    },
+    {
+      "source_row": 1186,
+      "date": "2015-03-11",
+      "prediction": 0.7779810914071034,
+      "actual": null
+    },
+    {
+      "source_row": 1187,
+      "date": "2015-03-11",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1188,
+      "date": "2015-03-11",
+      "prediction": 0.6044983642056942,
+      "actual": null
+    },
+    {
+      "source_row": 1189,
+      "date": "2015-03-11",
+      "prediction": 0.6299210616001817,
+      "actual": null
+    },
+    {
+      "source_row": 1190,
+      "date": "2015-03-11",
+      "prediction": 0.5478815631511225,
+      "actual": null
+    },
+    {
+      "source_row": 1191,
+      "date": "2015-03-11",
+      "prediction": 0.5449403532627244,
+      "actual": null
+    },
+    {
+      "source_row": 1192,
+      "date": "2015-03-11",
+      "prediction": 0.5464350322042566,
+      "actual": null
+    },
+    {
+      "source_row": 1193,
+      "date": "2015-03-11",
+      "prediction": 0.7323112888347556,
+      "actual": null
+    },
+    {
+      "source_row": 1194,
+      "date": "2015-03-11",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    },
+    {
+      "source_row": 1195,
+      "date": "2015-03-11",
+      "prediction": 0.7739881065905403,
+      "actual": null
+    },
+    {
+      "source_row": 1196,
+      "date": "2015-03-11",
+      "prediction": 0.8090430527999833,
+      "actual": null
+    },
+    {
+      "source_row": 1197,
+      "date": "2015-03-11",
+      "prediction": 0.7232764735839078,
+      "actual": null
+    }
+  ],
+  "interpretation": "Input distribution alert is not proof of deteriorated accuracy. Shifted inputs have no valid counterfactual outcomes.",
+  "duration_ms": 115.267,
+  "scope": "Historical replay after configuration freeze; repeated replay is not new unseen evidence."
+}

@@ -1,0 +1,185 @@
+{
+  "id": "exp-67c71c2ee66f",
+  "frozen_at": "2026-10-26T12:18:20.690659+00:00",
+  "models": [
+    {
+      "version": "mean-67c71c2ee66f",
+      "kind": "mean",
+      "title": "Mean fallback",
+      "validation": {
+        "mae": 0.14460697171656,
+        "rmse": 0.19747568587185288,
+        "r2": -0.10517684447119313
+      },
+      "departments": [
+        {
+          "department": "finishing",
+          "rows": 94,
+          "mae": 0.1668184693228297
+        },
+        {
+          "department": "sewing",
+          "rows": 138,
+          "mae": 0.12947740088330384
+        }
+      ],
+      "checks": [
+        {
+          "name": "Finite validation predictions",
+          "passed": true,
+          "detail": "Every validation prediction is finite."
+        },
+        {
+          "name": "Artifact round-trip matches",
+          "passed": true,
+          "detail": "Serialized/reloaded validation predictions agree within 1e-12."
+        }
+      ],
+      "eligible": true,
+      "artifact": "artifacts\\exp-67c71c2ee66f\\mean.joblib",
+      "artifact_sha256": "52739aee5cc64df50635104419492534a23b5f40c97cd6c70939c29bf20b8315",
+      "mlflow_run_id": "c76f0862ce414c27a709de2d214ab584",
+      "fit_and_log_seconds": 0.20015
+    },
+    {
+      "version": "ridge-67c71c2ee66f",
+      "kind": "ridge",
+      "title": "Ridge incumbent",
+      "validation": {
+        "mae": 0.13248099495729274,
+        "rmse": 0.18584454053838995,
+        "r2": 0.021177079492124995
+      },
+      "departments": [
+        {
+          "department": "finishing",
+          "rows": 94,
+          "mae": 0.17870933122238286
+        },
+        {
+          "department": "sewing",
+          "rows": 138,
+          "mae": 0.10099212822599941
+        }
+      ],
+      "checks": [
+        {
+          "name": "Finite validation predictions",
+          "passed": true,
+          "detail": "Every validation prediction is finite."
+        },
+        {
+          "name": "MAE improves reference by \u22652%",
+          "passed": true,
+          "detail": "0.13248 \u2264 0.14171; reference is mean for ridge, ridge for forest."
+        },
+        {
+          "name": "Validation MAE \u2264 0.16",
+          "passed": true,
+          "detail": "Illustrative absolute-error ceiling."
+        },
+        {
+          "name": "Department MAE \u2264 0.22",
+          "passed": true,
+          "detail": "Each department is checked separately."
+        },
+        {
+          "name": "Department support \u226520",
+          "passed": true,
+          "detail": "Both observed departments need validation support."
+        },
+        {
+          "name": "Artifact round-trip matches",
+          "passed": true,
+          "detail": "Serialized/reloaded validation predictions agree within 1e-12."
+        }
+      ],
+      "eligible": true,
+      "artifact": "artifacts\\exp-67c71c2ee66f\\ridge.joblib",
+      "artifact_sha256": "027ecd924ca52a7b50a73b662e33e15b9880634e61b0d86a979605d590f08c63",
+      "mlflow_run_id": "7da58a8e337b44cfaef72c4f19016195",
+      "fit_and_log_seconds": 0.155185
+    },
+    {
+      "version": "forest-67c71c2ee66f",
+      "kind": "forest",
+      "title": "Forest candidate",
+      "validation": {
+        "mae": 0.12053724210921622,
+        "rmse": 0.16956637989508805,
+        "r2": 0.1851381001879655
+      },
+      "departments": [
+        {
+          "department": "finishing",
+          "rows": 94,
+          "mae": 0.1600904033403551
+        },
+        {
+          "department": "sewing",
+          "rows": 138,
+          "mae": 0.09359523373438251
+        }
+      ],
+      "checks": [
+        {
+          "name": "Finite validation predictions",
+          "passed": true,
+          "detail": "Every validation prediction is finite."
+        },
+        {
+          "name": "MAE improves reference by \u22652%",
+          "passed": true,
+          "detail": "0.12054 \u2264 0.12983; reference is mean for ridge, ridge for forest."
+        },
+        {
+          "name": "Validation MAE \u2264 0.16",
+          "passed": true,
+          "detail": "Illustrative absolute-error ceiling."
+        },
+        {
+          "name": "Department MAE \u2264 0.22",
+          "passed": true,
+          "detail": "Each department is checked separately."
+        },
+        {
+          "name": "Department support \u226520",
+          "passed": true,
+          "detail": "Both observed departments need validation support."
+        },
+        {
+          "name": "Artifact round-trip matches",
+          "passed": true,
+          "detail": "Serialized/reloaded validation predictions agree within 1e-12."
+        }
+      ],
+      "eligible": true,
+      "artifact": "artifacts\\exp-67c71c2ee66f\\forest.joblib",
+      "artifact_sha256": "00f119c6b0bded32abab519826db277cb309c1b73664ad75d840066a581cc8c1",
+      "mlflow_run_id": "6291254d78ea4537bf3cd88d2bbd659a",
+      "fit_and_log_seconds": 0.238126
+    }
+  ],
+  "selected_version": "forest-67c71c2ee66f",
+  "policy": {
+    "version": "1.0",
+    "seed": 42,
+    "train_dates": 35,
+    "validation_dates": 12,
+    "replay_dates": 12,
+    "minimum_relative_mae_improvement": 0.02,
+    "maximum_validation_mae": 0.16,
+    "maximum_department_mae": 0.22,
+    "minimum_department_rows": 20,
+    "psi_alert_threshold": 0.2,
+    "description": "Illustrative release thresholds chosen before model comparison. Not industry standards. Mean fallback only requires finite predictions and verified artifacts; learned models must also beat the mean, meet error limits and have adequate validation department samples. Candidate must beat the ridge incumbent. No replay score enters release eligibility."
+  },
+  "policy_sha256": "c76640f76550f36f615ce321c7070a365d15c8b49e70c97cbaac400a5794b825",
+  "source_sha256": "763ffcdd39b7f7f360243c2af8f89ed733e8b5f9e511efeb0c886b83e1b76866",
+  "engine_sha256": "8c9f0d5dbf9599d22099a67afce7024736208a2105bfe6f240a23d66b9b94d16",
+  "tracking_uri": "sqlite:///U:/Projects/Portfolio/projects/f3-manufacturing-model-reliability-lab/runtime/mlflow.sqlite3",
+  "duration_seconds": 4.121543,
+  "training_rows": 711,
+  "validation_rows": 232,
+  "scope": "Release eligibility uses validation only; replay labels have not been scored here."
+}

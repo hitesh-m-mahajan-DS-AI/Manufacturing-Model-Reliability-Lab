@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "seed": 42,
+  "train_dates": 35,
+  "validation_dates": 12,
+  "replay_dates": 12,
+  "minimum_relative_mae_improvement": 0.02,
+  "maximum_validation_mae": 0.16,
+  "maximum_department_mae": 0.22,
+  "minimum_department_rows": 20,
+  "psi_alert_threshold": 0.2,
+  "description": "Illustrative release thresholds chosen before model comparison. Not industry standards. Mean fallback only requires finite predictions and verified artifacts; learned models must also beat the mean, meet error limits and have adequate validation department samples. Candidate must beat the ridge incumbent. No replay score enters release eligibility."
+}
